@@ -1,0 +1,12 @@
+AddDefaultCharset UTF-8
+#Настраиваем кодировку файлов приложения
+RewriteEngine on
+# Включаем движок чтение записи данных проекта
+RewriteBase /
+# Указываем активную папку
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Команды позволяют считывать и вставлять инфу с других файлов
+
+RewriteRule ^(.*)$ index.php

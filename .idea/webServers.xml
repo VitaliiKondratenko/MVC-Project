@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="062f979a-e910-47a2-862d-f50098cbe688" name="MyMvc2" url="http://MyMvc2">
+        <fileTransfer mountedRoot="C:\OSPanel\domains\MyMvc2" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
